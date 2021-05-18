@@ -4,7 +4,7 @@ import BottomNavigation from '@material-ui/core/BottomNavigation';
 import BottomNavigationAction from '@material-ui/core/BottomNavigationAction';
 
 
-import WhatshotIcon from '@material-ui/icons/Whatshot';
+import NewReleasesIcon from '@material-ui/icons/NewReleases';
 import MovieIcon from '@material-ui/icons/Movie';
 import TvIcon from '@material-ui/icons/Tv';
 import SearchIcon from '@material-ui/icons/Search';
@@ -52,7 +52,7 @@ useEffect(() => {
       style={{color:'red'}}
       
       label="Trending" 
-      icon={<WhatshotIcon  />} />
+      icon={<NewReleasesIcon  />} />
 
 <BottomNavigationAction
       style={{color:'red'}}
